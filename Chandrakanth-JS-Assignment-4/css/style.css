@@ -1,0 +1,40 @@
+.user-list {
+    list-style-type: none;
+    padding: 0;
+}
+.user-item {
+    background-color: #FFF2CC;
+    align-items: center;
+    display: flex;
+    gap :10%;
+    padding: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+    gap:10%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.user-item:nth-child(even) {
+    background-color: #D9EAD3;
+}
+.body{
+    width: 200vh;
+    height :200vh;
+}
+.row{
+    display: flex;
+  margin-left: 12%;
+  margin-right: 12%;
+    align-items: center;
+    background-color: aquamarine;
+    gap: 10%;
+    padding: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.span{
+    padding: 10px;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+  

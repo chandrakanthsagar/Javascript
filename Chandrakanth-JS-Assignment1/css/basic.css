@@ -1,0 +1,138 @@
+body{
+    background-color: gray;
+  }
+  .content {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 15px;
+  }
+  .heading h1{
+      font-size: 35px;
+      margin:0;
+      text-align: center;
+  }
+  .heading h4{
+    font-size: 20px;
+    margin: 0;
+  }
+  #star{
+    color: red;
+  }
+  .heading h5{
+      font-size: 15px;
+      margin:0;
+    text-align: center;
+    border-bottom-style: solid;
+   
+    padding-bottom: 60px;
+  }
+  
+  .input,.email{
+   
+    display: flex;
+    gap:15%;
+    margin-top: 15px;
+    /* justify-content: space-between; */
+  }
+  .Label{
+   margin-top: 15px;
+    display: flex;
+    gap:45%;
+   
+  }
+  .emailphn,.appliedposition{
+    margin-top: 10px;
+  
+    display: flex;
+    gap:35%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .emailphn{
+    margin-top: 10px;
+  
+    display: flex;
+    gap:43%;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #secondtextName{
+    margin-left:10% ;
+  }
+  #firstName,#LastName,#Email,#phn,#datepicker{
+      height: 30px;
+      width: 300px; /* Adjust the value to increase or decrease the width */
+    }
+    
+    
+    #drop-zone {
+  
+      margin: 30px;
+      position: relative;
+      left: 20%;
+      border: 2px dashed #ccc;
+      padding: 40px;
+      text-align: center;
+      width: 300px;
+    }
+    
+    #drop-message {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    #file-preview {
+      margin-top: 20px;
+    }
+    
+    /* #file-preview img {
+      max-width: 100%;
+      max-height: 200px;
+    } */
+    #submit{
+      width: 100px;
+      height: 50px;
+      align-items: center;
+    }
+    .btn button{
+      width: 100px;
+      height: 30px;
+      margin: 2px;
+      align-items: center;
+      border: #ccc;
+      border-color: rgb(60, 0, 255);
+      border-style: solid;
+      border-radius: 12px;
+      
+    }
+    #imageupload{
+      position: relative;
+      left: 5%;
+    }
+    .Interviewdate{
+      display: flex;
+      gap :55%;
+    }
+    .displayDate{
+      display: flex;
+      gap:5%;
+    }
+    .btn{
+      display: flex;
+      position: relative;
+      right: 80%;
+      gap:15%;
+      
+    }
+    .disdate{
+      display: flex;
+    }
+    .displayDate p{
+      position: relative;
+      right: 5%;
+    }
+    
+  
+  
+  

@@ -1,0 +1,106 @@
+.header {
+    background-color: #bca1d6;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+}
+.header h2{
+    position: relative;
+    left:20px;
+    margin-top: 6px;
+}
+.header span{
+    position: absolute;
+    right: 30px;
+    display: flex;
+    gap: 40px;
+}
+.body{
+    overflow: hidden;
+}
+.header i{
+    font-size: 40px;
+
+}
+
+.body{
+   background-color: rgb(236, 157, 60);
+}
+.tables{
+    position: relative;
+    left: 303px;
+    margin-top: 100px;
+    font-size:20px;
+    border: 2px solid black; 
+
+}
+.icons{
+    display: flex;
+    gap:30px;
+}
+.icons i {
+    font-size: 20px;
+    
+}
+.header i:hover {
+    /* Define the styles you want to apply when hovering */
+    color: rgb(3, 3, 16); /* For example, changing the text color to blue */
+    cursor: pointer; /* Change the cursor to a pointer to indicate interactivity */
+  }
+.icons i:hover {
+    /* Define the styles you want to apply when hovering */
+    color: blue; /* For example, changing the text color to blue */
+    cursor: pointer; /* Change the cursor to a pointer to indicate interactivity */
+  }
+
+.tables th, .tables td {
+    border: 1px solid black;
+    padding: 18px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    font-size: 16px; /* Adjust the font size as needed */
+}
+.body,html{
+    margin: 0px;
+}
+*{
+    margin: 0px;
+}
+.addform {
+    
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    gap: 25px; /* Adjust the gap as needed */
+    top:10%;
+    left: 25%;
+    width: 50%;
+    width: 300px; /* Increased the width for more content space */
+    padding: 20px; /* Added padding for spacing inside the box */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+.addform button {
+    background-color: #bca1d6;
+    color: white; /* Added text color for better visibility */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.addform button:hover {
+    background-color: #8c71a9; /* Darker shade on hover */
+}
+
+.dialogclass{
+
+    align-items: center;
+}
+.dialogclass h3{
+    color:rgb(255, 0, 217)
+}

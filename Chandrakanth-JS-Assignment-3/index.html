@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRADIOUS javascript-ASSIGNMENT-3 </title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js"></script>
+
+</head>
+<body>
+    <div class="header">
+        <div class="stopwatch">
+            <img src="./images/stopwatch (1).png" class="img">
+        </div>
+        <div class="writeup">stopwatch</div>
+        <div class = "buttons">
+            <a href="#" class="link">Home</a>
+            <a href="#" class="link">Calender</a>
+            <a href="#" class="link">Timer</a>
+            <a href="#" class="link">Clock</a>
+
+
+        </div>
+        
+
+    </div>
+    <div class="div1">Click for instructions</div>
+    <div class="display">
+        <div class="displaydiv">
+            <div>
+                <input type="" class="int" id ="Displaydays" placeholder="00">
+            </div>
+            <div>
+               <label class="labeldisplay">Days</label>
+            </div>
+        </div>
+        <span>:</span>
+        <div class="displaydiv">
+            <div>
+                <input type="" class="int" id="Displayhour" placeholder="00">
+            </div>
+            <div>
+               <label class="labeldisplay">Hours</label>
+            </div>
+        </div>
+        <span>:</span>
+        <div class="displaydiv"> 
+            <div>
+                <input type="" class="int"  id="Displayminutes" placeholder="00">
+            </div>
+            <div>
+               <label class="labeldisplay">Minutes</label>
+            </div>
+        </div>
+        <span>:</span>
+        <div class="displaydiv">
+            <div>
+                <input type="" class="int"  id="Displayseconds"="00">
+            </div>
+            <div>
+               <label class="labeldisplay">Seconds</label>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="inputs">
+        <label for="days">Days:</label>
+        <input type="number" id="days" min="0">
+        <label for="hours">Hours:</label>
+        <input type="number" id="hours" min="0" max="23">
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" min="0" max="59">
+        <label for="seconds">Seconds:</label>
+        <input type="number" id="seconds" min="0" max="59">
+    </div>
+    <div class="buttondiv">
+        <button class="btn1" onclick="setTimer()">SetTimer</button>
+        <button class="btn2" onclick="StartTimer()">Start/Resume</button>
+        <button class="btn3"onclick = "PauseTimer()"id="pauseButton">Pause</button>
+        <button class="btn4"  onclick = "ResetTimer()" id="resetButton">Reset</button>
+    </div>
+        <br>
+
+    <div class="bottom">
+        <span class="span2">Instructions</span><br>
+        1. Enter the values in the input. <br>
+        2. Press the Start/Resume Button to start the timer.<br>
+        3. Pause the Timer if you want to pause.<br>
+        4. Press Start/Resume button to resume the timer.<br>
+        5. Press the Reset Button to reset the values.
+    </div>
+
+</body>
+</html>
